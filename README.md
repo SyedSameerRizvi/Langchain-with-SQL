@@ -1,6 +1,8 @@
 # Chat with SQL Database
 This application allows you to chat with an SQL database (either SQLite or MySQL) using a LangChain-based agent with a Groq-powered LLM (Llama3-8b-8192). The app is built using Streamlit, which provides a simple and interactive interface.
 
+you can check the app here: [Chat with SQL](https://langchain-with-sql-32uzvwjd79zyhukrar8z6x.streamlit.app/)
+
 ## Features
 - `Database Connectivity`: Supports both SQLite and MySQL databases.
 - `SQL Querying`: You can interact with your database using natural language queries.
@@ -22,14 +24,13 @@ pip install -r requirements.txt
 - MySQL Database Name
 
 ### 3. Groq API
-You will need a `Groq API key` to use the LLM. This can be entered in the sidebar once the app is running. Visit the [Groq](https://groq.com/) Website.
+You will need a `Groq API key` to use the LLM. This can be entered in the sidebar once the app is running. Visit the [Groq](https://groq.com/) Website to create an API Key.
 
 ### 4. Running the App
 Once you've set up your environment and configured the database, run the Streamlit app with the following command:
 ```bash
 streamlit run app.py
 ```
-Or you can check the app here: [Chat with SQL](https://langchain-with-sql-32uzvwjd79zyhukrar8z6x.streamlit.app/)
 
 ### 5. Interacting with the App
 - Choose the database (SQLite or MySQL) from the sidebar.
