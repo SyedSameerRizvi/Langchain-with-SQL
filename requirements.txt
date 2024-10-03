@@ -1,0 +1,8 @@
+langchain
+python-dotenv
+langchain-community
+mysql-connector-python
+streamlit
+SQLAlchemy
+pytube
+numexpr
