@@ -10,7 +10,7 @@ import sqlite3
 from langchain_groq import ChatGroq
 
 st.set_page_config(page_title="LangChain: Chat with SQL DB", page_icon="🦜")
-st.title("🦜 LangChain: Chat with SQL DB")
+st.title("Chat with SQL DB")
 
 LOCALDB="USE_LOCALDB"
 MYSQL="USE_MYSQL"
