@@ -33,13 +33,13 @@ api_key=st.sidebar.text_input(label="Groq API Key",type="password")
 if not db_uri:
     st.info("Please enter the database information and URI")
 
-## LLM model
-llm = ChatGroq(groq_api_key=api_key, model_name="Llama3-8b-8192", streaming=True)
-
 # Check if the user provided an API key, otherwise use your default
 if not api_key:
     st.warning("No Groq API key provided. Using the default API key.")
     api_key = "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"
+
+## LLM model
+llm = ChatGroq(groq_api_key=api_key, model_name="Llama3-8b-8192", streaming=True)
 
 @st.cache_resource(ttl="2h")
 def configure_db(db_uri,mysql_host=None,mysql_user=None,mysql_password=None,mysql_db=None):
