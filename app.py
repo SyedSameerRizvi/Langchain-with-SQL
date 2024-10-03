@@ -15,7 +15,7 @@ st.title("Chat with SQL DB")
 LOCALDB="USE_LOCALDB"
 MYSQL="USE_MYSQL"
 
-radio_opt=["Use SQLLite 3 Database- Student.db","Connect to you MySQL Database"]
+radio_opt=["Use SQLLite 3 Database- Student.db","Connect to your MySQL Database"]
 
 selected_opt=st.sidebar.radio(label="Choose the DB which you want to chat",options=radio_opt)
 
